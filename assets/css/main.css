@@ -1,5 +1,6 @@
 @import url(./variable.css);
 @import url(./reset.css);
+@import url(./style.css);
 
 header, nav { background: var(--rich-black-fogra-29); }
 .navbar,
@@ -481,3 +482,8 @@ ul .link-item:not(:last-child) { margin-bottom: 10px; }
 .wrapper { display: flex; }
 
 .wrapper a:not(:last-child) { margin-right: 30px; }
+
+/*----------------------Carrosel-----------------------------*/
+
+
+
