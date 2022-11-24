@@ -1,53 +1,7 @@
-/*-------------------------------------*\
-  #main.css
-\*-------------------------------------*/
-
-/**
- * copyright 2021 @codewithsadee 
- */
-
-
-
-
-
-/*-------------------------------------*\
-  #VARIABLES
-\*-------------------------------------*/
-
-/**
- * import variables.css file 
- */
-
 @import url(./variable.css);
-
-
-
-
-
-/*-------------------------------------*\
-  #RESET
-\*-------------------------------------*/
-
-/**
- * import reset.css file 
- */
-
 @import url(./reset.css);
 
-
-
-
-
-/*-------------------------------------*\
-  #REPEAT
-\*-------------------------------------*/
-
-/**
- * reused style
- */
-
 header, nav { background: var(--rich-black-fogra-29); }
-
 .navbar,
 .banner,
 .movies,
@@ -55,41 +9,16 @@ header, nav { background: var(--rich-black-fogra-29); }
 .live {
   padding: 0 var(--px);
 }
-
 .section-heading {
   font-size: var(--section-heading);
   font-weight: var(--fw-5);
   margin-bottom: 60px;
 }
-
-
-
-
-
-/*-------------------------------------*\
-  #MAIN
-\*-------------------------------------*/
-
-/**
- * main container style 
- */
-
 .container {
-  max-width: 1440px;
+  max-width: 1200px;
   margin: auto;
 }
 
-
-
-
-
-/*-------------------------------------*\
-  #NAVBAR
-\*-------------------------------------*/
-
-/**
- * navbar style 
- */
 
 .navbar {
   height: 100px;
@@ -98,15 +27,8 @@ header, nav { background: var(--rich-black-fogra-29); }
   align-items:     center;
 }
 
-/**
- * small screen menu button style 
- */
-
 .navbar-menu-btn { display: none; }
 
-/**
- * navbar navigation style 
- */
 
 nav { margin-right: 200px; }
 
@@ -121,27 +43,6 @@ nav { margin-right: 200px; }
 
 .navbar-link:hover { color: var(--light-azure); }
 
-/**
- * live indicator style 
- */
-
-.indicator { position: relative; }
-
-.indicator::after {
-  content: '';
-  background: var(--live-indicator);
-  position: absolute;
-  top:   calc(50% - 1px);
-  right: -15px;
-  width:  4px;
-  height: 4px;
-  box-shadow: 0 0 0 2px var(--live-indicator-shadow);
-  border-radius: 5px;
-}
-
-/**
- * navbar form & button style 
- */
 
 .navbar-actions {
   display:     flex;
@@ -180,10 +81,6 @@ nav { margin-right: 200px; }
 .navbar-form-btn:hover ion-icon,
 .navbar-form-search::placeholder { color: var(--off-white); }
 
-/**
- * navbar-form close button & navbar search button
- * for small device 
- */
 
 .navbar-form-close,
 .navbar-search-btn { display: none; }
@@ -203,17 +100,6 @@ nav { margin-right: 200px; }
 
 .navbar-signin:hover span { color: var(--light-azure); }
 
-
-
-
-
-/*-------------------------------------*\
-  #BANNER
-\*-------------------------------------*/
-
-/**
- * banner card style 
- */
 
 .banner { margin-bottom: 60px; }
 
@@ -270,18 +156,8 @@ nav { margin-right: 200px; }
 }
 
 
-
-
-
-/*-------------------------------------*\
-  #MOIVES SECTION
-\*-------------------------------------*/
-
 .movies { margin-bottom: 60px; }
 
-/**
- * filter bar style
- */
 
 .filter-bar {
   display:         flex;
@@ -324,10 +200,7 @@ nav { margin-right: 200px; }
 .filter-radios label:hover { color: var(--light-azure); }
 
 input ~ .checked-radio-bg {
-  /**
-   * variable for changing position and size
-   * besed on radio checked 
-   */
+
   --width: 85px;
   --left:   5px;
 
@@ -351,10 +224,6 @@ input ~ .checked-radio-bg {
 }
 
 
-/**
- * movies grid 
- */
-
 .movies-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -363,9 +232,7 @@ input ~ .checked-radio-bg {
 }
 
 .movie-card {
-  /**
-   * variable for scaling overlay element on card hover 
-   */
+
   --scale: 0.8;
 
   cursor: pointer;
@@ -457,11 +324,33 @@ input ~ .checked-radio-bg {
 
 .movie-card .genre { margin-right: 8px; }
 
+.movie-info{
+  
+}
+.movie-info h1 {
+  font-size:40px;
+  margin-bottom: 2rem;
+}
 
-/**
- * load more button 
- */
+.movie-info p {
+  font-size:larger;
+  margin: 0rem 4rem 0rem 4rem;
+  padding: 1rem;
+}
+.trailler{
 
+}
+
+.trailler p{
+  margin: 0;
+  padding: 0;
+  
+}
+.trailler p a{
+  margin: 0;
+  padding: 0;
+  
+}
 .load-more {
   background: var(--oxford-blue);
   display: block;
@@ -475,13 +364,6 @@ input ~ .checked-radio-bg {
 
 .load-more:hover { background: var(--light-azure); }
 
-
-
-
-
-/*-------------------------------------*\
-  #CATEGORY SECTION
-\*-------------------------------------*/
 
 .category { margin-bottom: 60px; }
 
@@ -531,9 +413,6 @@ input ~ .checked-radio-bg {
 
 .category-card:hover .name { color: var(--light-azure); }
 
-/*-------------------------------------*\
-  #FOOTER SECTION
-\*-------------------------------------*/
 
 footer {
   background: var(--rich-black-fogra-29);
