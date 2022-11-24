@@ -34,15 +34,14 @@
         <nav class="">
           <ul class="navbar-nav">
             <li> <a href="Filme1.html" class="navbar-link">Home</a> </li>
-            <li> <a href="slider.html" class="navbar-link">Slider</a> </li>
           </ul>
         </nav>
         <!--------LogIn--------->
 
         <div class="navbar-actions">
 
-          <form action="#" class="navbar-form">
-            <input type="text" name="search" placeholder="I'm looking for..." class="navbar-form-search">
+          <form action="" class="navbar-form">
+            <input type="text" name="search" placeholder="Estou procurando por..." class="navbar-form-search">
             <button class="navbar-form-btn">
               <ion-icon name="search-outline"></ion-icon>
             </button>
@@ -54,7 +53,7 @@
           <button class="navbar-search-btn">
             <ion-icon name="search-outline"></ion-icon>
           </button>
-          <a href="#" class="navbar-signin">
+          <a href="./Formulario.html" class="navbar-signin">
             <span>Sign in</span>
             <ion-icon name="log-in-outline"></ion-icon>
           </a>
@@ -63,7 +62,9 @@
     </header>
     <main>
              <!--------Baner--------->
+    <a href="Filme1.html">
       <section class="banner">
+        <div class="slideshow-container">
         <div class="banner-card">
           <img src="./assets/images/John-Wick-3.jpg" class="banner-img" alt="">
           <div class="card-content">
@@ -82,36 +83,46 @@
               </div>
               <div class="quality">4K</div>
             </div>
-            <h2 class="card-title">John Wick: Chapter 3 - Parabellum</h2>
+            <h2 class="card-title">John Wick 3 - Parabellum</h2>
           </div>
         </div>
+        <div> </div>
       </section>
+    </a>
       <!------------------------Carrosel-------------------------->
-<!-- <section> 
-    <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="project-img">
-              <img src="./assets/images/adventure.jpg" alt="Foto 01">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="project-img">
-              <img src="./assets/images/action.jpg" alt="Foto 02">
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="project-img">
-              <img src="./assets/images/animated.jpg" alt="Foto 03">
-            </div>
-          </div>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade banner-card ">
+          <div class="banner-card">  
+          <div class="numbertext">1 / 3</div>
+          <img src="assets/images/animated.jpg" style="width:100%">
+          <div class="text">Desenho</div>
         </div>
-      
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </section> -->
+       </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="assets/images/comedy.jpg" style="width:100%">
+          <div class="text">Comedia</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="assets/images/horror.jpg" style="width:100%">
+          <div class="text">Terror</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
 
       <!---------------------Filmes---------------------------->
 
@@ -119,7 +130,8 @@
         <div class="movies-grid">
           <div class="movie-card">
             <div class="card-head">
-              <img src="./assets/images/movies/red-notice.jpg" alt="" class="card-img">
+              <a href="./Filme1.html">
+              <img src="./assets/images/movies/JW.jpg" alt="" class="card-img">
               <div class="card-overlay">
                 <div class="bookmark">
                   <ion-icon name="bookmark-outline"></ion-icon>
@@ -133,6 +145,7 @@
                 </div>
               </div>
             </div>
+          </a>
             <div class="card-body">
               <h3 class="card-title">Red Notice</h3>
               <div class="card-info">
@@ -365,7 +378,7 @@
         </div>
       </section>
             <!--------Footer--------->
-    <footer>
+    <footer class="container">
       <div class="footer-content">
         <div class="footer-brand">
           <a href="#" class="navbar-brand">
