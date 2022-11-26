@@ -366,16 +366,16 @@ input ~ .checked-radio-bg {
   margin: 0rem 4rem 0rem 4rem;
   padding: 1rem;
 }
-.trailler{
-
+.trailer{
+ 
 }
 
-.trailler p{
+.trailer p{
   margin: 0;
   padding: 0;
   
 }
-.trailler p a{
+.trailer p a{
   margin: 0;
   padding: 0;
   
@@ -776,3 +776,67 @@ ul .link-item:not(:last-child) { margin-bottom: 10px; }
     bottom: 100%;
   }
 }
+
+/* ---------------------------404---------------------------------------- */
+
+
+.gradient-1{
+  background-image: linear-gradient(165deg,#f84040,#3d10a5 );
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  color:#110917;  
+}
+
+.bg-color{
+  background-color: #110917;
+}
+
+.font-xxl{
+  font-weight: 700;
+  font-family:Roboto;
+  font-size:9.375rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.font-x{
+  margin-top: 3.60rem;
+  margin-bottom:15rem;
+  font-family: Roboto;
+  font-size: smalld;
+  color: #ffff;
+  text-align: center;
+}
+
+.footer-copyright {
+  color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 2.5rem;
+}
+
+.footer-developers {
+  color: #ffff;
+  display: flex;
+   align-items: center;
+   }
+
+.logoCub {
+  margin-left: 1rem;
+  width: 80px;
+   }
+   .text-14 {
+      color:#ffff;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+  
+  }
+  
+  .linha{
+    
+
+  }
+  
