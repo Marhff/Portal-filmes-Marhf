@@ -366,7 +366,9 @@ input ~ .checked-radio-bg {
   margin: 0rem 4rem 0rem 4rem;
   padding: 1rem;
 }
-.trailer{
+.trailer section iframe{
+  width: 100%;
+  aspect-ratio: 16/9;
  
 }
 
