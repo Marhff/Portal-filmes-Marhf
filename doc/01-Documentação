@@ -1,0 +1,57 @@
+<!-- # Introdução
+ O volume de informação gerada por ano no planeta é tão grande que alguns estudiosos relatam que o mundo(PENDENCIA REPETIÇÃO) a cada dia é engolido por milhares de dados, comparando-o com um oceano. (UOL, 2003)
+
+Com tantas informações disponíveis é importante que cada indivíduo saiba distinguir o que é importante, preciso, imparcial e assertivo. Com isso é possível direcionar seus esforços na aquisição de conhecimento através dessas informações. Além disso, observa-se o aumento de publicações sem evidências e com informações manipuladas (falsas).
+
+No setor de filmes não é diferente, a supervalorização da fofoca contribuiu para criação de falsas informações para atrair mais público, sem ter cuidado se prejudicará artistas, produtoras e clientes. Com isso, é essencial que existam canais de informação de filmes que publiquem um conteúdo variado e sem distorcer a verdade. 
+
+
+## Problema
+Conforme narrativa anterior e tendo como objetivo deste projeto, tornar-se necessário filtrar as informações sobre filmes em um único canal, com fidelidade, imparcialidade e respeito ao conteúdo e usuário.
+
+## Objetivos
+
+O objetivo geral deste trabalho é a criação de um portal de filmes que apresenta ferramentas de fácil uso e que permita o acesso a informações sem vieses.
+
+> **Como objetivos específicos, podemos ressaltar**:
+> - Integração com outros portais de filmes confiáveis;
+> - Fornecer funcionalidades que permitam interagir com as publicações apresentadas;
+> - Permitir filtros conforme assuntos comuns.
+
+
+## Justificativa
+
+Com a utilização da internet é possível compartilhar com diversas pessoas os mais variados assuntos e, assim surgir uma conexão entre elas. Com isso, veio a oportunidade de partilhar os hobbies, sendo um deles assistir filmes. O foco do Portal de Filmes é conectar os apaixonados pelas obras cinematográficas.
+
+## Público-Alvo
+
+Pessoas que gostam de estar atualizadas com as notícias dos filmes que estão em cartaz ou até mesmo já foram lançados. Outro público alvo são os entusiastas que possuem o hábito de buscar informações de seus filmes preferidos. Dessa forma, o público-alvo desta solução são homens e mulheres, em uma idade entre 20 e 45 anos.
+
+ -->
+
+<!--------------------------------------------------------------------------------->
+
+ # Introdução
+
+Os estudiosos relatam que o mundo está se tornando cada vez mais digitalizado, e que isso tem gerado uma grande quantidade de informações. Segundo eles, o volume de informação gerada por ano no planeta é tão grande que alguns estudiosos relatam que o mundo já não consegue mais processar todas essas informações. Isso pode causar problemas, como a falta de foco e a perda de produtividade.
+Os filmes estão por toda parte. Na TV, nos cinemas, na internet. É difícil escapar deles. Mas nem sempre é fácil encontrar um canal ou site confiável para assistir aos filmes. Alguns sites oferecem filmes gratuitamente, mas são cheios de anúncios e propagandas. Outros sites cobram uma taxa para assistir aos filmes, mas também podem trazer malwares para o seu computador. O que fazer?
+
+ ## Problema
+
+Filtrar as informações sobre filmes em um único canal tornou-se necessário, pois é preciso ter fidelidade, imparcialidade e respeito ao conteúdo e usuário. Um canal que traga todas as novidades do cinema para você, de uma forma clara e objetiva. Além de trazer as resenhas dos principais lançamentos, esse canal irá mostrar os trailers oficiais e exclusivos dos filmes em cartaz nas telonas. Sempre com o objetivo de proporcionar uma melhor experiência de consumo para o público.
+
+## Objetivos
+
+Criar um portal de filmes que apresente ferramentas de fácil uso e permita o acesso a informações sem vieses é um objetivo geral importante.
+
+> **Como objetivos específicos, podemos ressaltar**:
+> - Integração sinopse e trailer de filmes;
+> - Fornecer funcionalidades que permitam interagir com as publicações apresentadas;
+
+## Justificativa
+
+Hoje em dia, com a internet, é possível compartilhar qualquer assunto com diversas pessoas ao mesmo tempo. Essa conexão entre elas gerou a oportunidade de partilhar os hobbies, sendo um deles assistir filmes. O Portal de Filmes nasceu com o objetivo de conectar os apaixonados pelas obras cinematográficas, facilitando a busca por informações sobre lançamentos, trailers  sobre os filmes. Além disso, o portal disponibiliza uma lista completa de filmes para assistir online, gratuitamente. Então, se você é apaixonado por cinema, visite o Portal de Filmes e se divirta!
+
+## Público-Alvo
+
+As pessoas que buscam informações sobre os filmes que estão em cartaz ou já foram lançados, geralmente querem estar atualizadas com as notícias. Por isso, essa solução é ideal para elas. Além disso, os entusiastas que possuem o hábito de buscar informações de seus filmes preferidos também podem ser público-alvo desta solução. Logo, a solução é voltada para homens e mulheres, em uma idade entre 20 e 45 anos.
