@@ -615,7 +615,7 @@ ul .link-item:not(:last-child) { margin-bottom: 10px; }
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
- /* -------------------------Cobtact--------------------------*/
+ /* -------------------------Contact--------------------------*/
  .login-box {
   margin: 5rem auto;
   width: 400px;
